@@ -1,0 +1,85 @@
+.left_panel {
+    height:calc(-205px + 100vh); 
+    overflow-y: auto; 
+    z-index: 10;    
+}
+
+.div-botao-plus {
+    z-index: 100;
+}
+
+.botao-plus {
+    background-color:darkblue;
+    color:white;
+    border-radius: 50%;
+}
+
+.div_proposta_gemea_encontrada {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:darkblue;
+}
+
+.div_proposta_gemea {
+    font-size: 10pt;
+    padding-top: 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.botao_visualizar_proposta_gemea {
+    font-size: 10pt !important;
+}
+
+.nome_campo_proposta_gemea_notificacao {
+    font-weight: bold;
+    color: #708090;
+}
+
+.class_quantidade_proposta_gemea_encontrada {
+    color:red !important;
+}
+
+.modal_proposta_gemea {
+    right: 0% !important;
+    bottom: 0% !important;
+    position: fixed;
+    width: 60% !important;
+    height: 95%;
+}
+
+
+.modal_alert {
+    right: 0% !important;
+    top: 0% !important;
+    position: fixed;
+    width: 18% !important;
+    height: 15%;
+}
+
+.modal_alert-mensagem-titulo{
+    padding-top: 1%;
+    text-align: right;
+    height: 40% !important;
+    background-color: red;
+    color: white;
+}
+
+
+.modal_alert-mensagem {
+    height: 60% !important;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.modal_proposta_gemea-titulo{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    height: 7% !important;
+    background-color: rgb(3, 25, 86);
+    color: white;
+}

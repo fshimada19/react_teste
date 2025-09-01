@@ -1,0 +1,116 @@
+.coluna_botoes_carga {
+    /*
+    border-style: solid;
+    border-width: 1px;
+    */
+    width: 11% !important;
+    margin-left: 0 !important;
+    padding-left: 0% !important;
+}
+
+.modal_registro {
+    right: 0% !important;
+    bottom: 0% !important;
+    position: fixed;
+    width: 40% !important;
+    height: 90%;
+}
+
+
+.modal_alert {
+    right: 0% !important;
+    top: 0% !important;
+    position: fixed;
+    width: 18% !important;
+    height: 15%;
+}
+
+.modal_alert-mensagem-titulo{
+    padding-top: 1%;
+    text-align: right;
+    height: 40% !important;
+    background-color: red;
+    color: white;
+}
+
+
+.modal_alert-mensagem {
+    height: 60% !important;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.modal_registro-titulo{
+    padding-top: 1%;
+    height: 5% !important;
+    background-color: rgb(3, 25, 86);
+    color: white;
+}
+
+.tabelas  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    border-style: solid;
+    border-width: 1px;
+    width: 100% !important;
+    border-radius: 50% !important; 
+}
+
+.tabelas thead  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: white;
+    color: rgb(3, 25, 86);
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    width: 60% !important;
+}
+
+.tabelas td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.espaco {
+    padding-left: 5px;
+}
+
+.atencao {
+    color: red;
+    font-weight: bold;
+}
+
+.atencao_amarelo {
+    color: orange;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+.col-2-personalizado-peso {
+    width:12% !important;
+}
+
+.col-2-personalizado-itens_nao_empilhaveis {
+    width:18% !important;
+}
+
+.col-2-personalizado-pickup {
+    width:12% !important;
+}
+
+.col-2-personalizado-imo {
+    width:12% !important;
+}
+
+.bloco_imo_bloqueio {
+    font-size: 14px;
+    /*color: slategrey;*/
+    padding: 20px;
+    color:#FFFFFF;
+    background-color: red;
+}

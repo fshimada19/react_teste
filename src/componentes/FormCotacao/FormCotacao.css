@@ -1,0 +1,272 @@
+.class_corpo_cotacao {
+    padding: 0 !important;
+    max-height:100vh;
+    height: calc(-195px + 100vh);    
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.theme--light.v-input {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.campos_text {
+    border-top:none;
+    border-right:none;
+    border-left:none;    
+    border-bottom:solid;
+    display: inline-flex;
+}
+
+.bordas {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.titulo {
+    font-size: 14px;
+    /*color: slategrey;*/
+    color:#0B2559;
+}
+
+.titulo_informacao {
+    font-size: 14px;
+    color: slategrey;
+}
+
+.titulo_atencao {
+    font-size: 14px;
+    color: red;
+}
+
+.borda_container_atencao_esquerda {
+    border-top: none !important;
+    border-left: solid !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-width: 2px !important;
+    border-radius: 1% !important;
+    border-color: red !important;    
+}
+
+
+.form-control {
+    z-index: 1;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid !important;
+    border-width: 1px !important;
+    border-radius: 0% !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 !important;
+    border-bottom: solid !important;
+    border-color: blue !important;
+    outline: 0 !important;
+}
+
+.form-select {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid !important;
+    border-width: 1px !important;
+    border-radius: 0% !important;
+    font-size: 10pt !important;
+}
+
+.form_select {
+    font-size:small;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid !important;
+    border-width: 1px !important;
+    border-radius: 0% !important;
+    width:90px !important; 
+} 
+
+.form_select:focus {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid !important;
+    border-color: blue !important;
+    outline: 0 !important;    
+}
+
+.form-select:focus {
+    box-shadow: 0 0 0 0 !important;
+    border-bottom: solid !important;
+    border-color: blue !important;
+    outline: 0 !important;    
+}
+
+.alinhamento_objeto_direito {
+    text-align:left;
+}
+
+.alinhamento_objeto_center {
+    text-align: center;
+}
+
+.data_result_autocomplete {
+    background-color: #FFFF;
+    
+    border-radius: 5px;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    position:absolute;
+    width:62%;
+}
+
+.data_result_autocomplete::-webkit-scrollbar {
+    display: none;
+}
+
+.dataItemAutoComplete {
+    display: flex;
+    align-items: center;
+    padding: 2px 12px;
+    cursor: pointer;
+}
+
+.dataItemAutoComplete:hover {
+    background-color: #e9e9e9;
+}
+
+.lista_rota {
+    cursor: pointer;
+}
+
+.rota_selecionada {
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.nao_aceita_frete_cc {
+    background-color: yellow;
+    border-radius: 10%;    
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.collect_sob_consulta {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alinhamento_texto_direito {
+    text-align: right;
+}
+
+
+.tabelasTaxas  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;    
+    border-width: 1px;
+    width: 100% !important;
+    border-radius: 50% !important; 
+}
+
+.tabelasTaxas thead  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: white;
+    color: rgb(3, 25, 86);
+    font-weight: bold;
+    border-style: solid;
+    border-left: none !important;
+    border-right: none !important;
+    border-width: 1px;
+    width: 60% !important;
+}
+
+.tabelasTaxas td {
+    padding: 5px;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid !important;
+    border-width: 1px !important;
+    border-color: #EEEEEE;
+    text-align: left;
+    background-color: rgb(252,252,253);
+    color: black;
+}
+
+
+
+.linha_titulo {
+    text-align: left;
+    background-color: rgb(252,252,253);
+    color: black;
+    font-weight: bold;
+}
+
+.campos_validacao {
+    color: red;
+    font-weight: bold;
+}
+
+.campos_valores_taxas_tabela {
+    margin: 0 5px;
+    width:75px !important;
+    display: inline-table !important;
+}
+
+.texto_edicao_taxas {
+    font-size: 12px !important;
+    color: red;
+}
+
+.custom-file-button {
+	input[type="file"] {
+		margin-left: -2px !important;
+
+		&::-webkit-file-upload-button {
+			display: none;
+		}
+		&::file-selector-button {
+			display: none;
+		}
+	}
+
+	&:hover {
+		label {
+			background-color: #dde0e3;
+			cursor: pointer;
+		}
+	}
+}
+
+.text_area_resize {
+    resize: none;
+}
+
+.class_loading {
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+.hide_loading {
+    display: none !important;
+}
+
+.hide_dados {
+    display: none;
+}
+
+.show_dados {
+    display: contents;
+}

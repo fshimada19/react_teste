@@ -1,0 +1,30 @@
+.menu_lista_cotacoes {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    white-space: nowrap;
+
+    border-width: thin;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow, opacity;
+    overflow-wrap: break-word;
+    white-space: normal;    
+}
+
+.nav-link-listacotacao {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(6, 25, 86);
+}
+.nav-link-listacotacao:hover, .dropdown-item:hover {
+    color: rgb(6, 25, 86);
+    text-decoration: underline;
+}
+
+.altura_lista {
+    height: 450px;
+}
+

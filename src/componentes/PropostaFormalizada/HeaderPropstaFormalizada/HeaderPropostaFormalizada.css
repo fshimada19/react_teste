@@ -1,0 +1,106 @@
+element.style {
+    height: 48px;
+    margin-top: 0px;
+    transform: translateY(0px);
+    left: 0px;
+    right: 0px;
+}
+.white--text {
+    color: #ffffff !important;
+    caret-color: #ffffff !important;
+}
+
+.dark--blue {
+    background-color: #031956 !important;
+    border-color: #031956 !important;
+    color:#ffffff;
+}
+
+.nav-link, .dropdown-item {
+    color: #ffffff !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: darkgreen !important;
+}
+
+.header-size-proposta_formalizada {
+    height: 60px !important; 
+    margin-top: 0px; 
+    transform: translateY(0px); 
+    left: 0px; 
+    right: 0px;
+    background-color: #031956 !important;
+    border-color: #031956 !important;
+
+}
+.conteudo_header_proposta_formalizada {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.row.no-gutters {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.fixar_posicao_proposta_formalizada {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.container_cabecalho_proposta_formalizada {
+    background-color: #eff0f5;
+    height: auto !important;
+    padding-bottom: 10px !important;
+    border-bottom-style:ridge;
+
+}
+.titulo_numero_proposta_formalizada {
+    color: grey;
+    font-weight: 600;
+}
+
+.conteudo_numero_proposta_formalizada {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 15pt !important;
+}
+
+.conteudo_validade_proposta_formalizada {
+    font-weight: bold !important;
+    font-size: 10pt !important;
+}
+
+.alinhamento_botoes_versao {
+    margin-right: 5px !important;
+}
+
+
+.data_emissao_formatacao {
+    margin-top: 10px !important;
+    margin-left: 40px !important;
+}
+
+.emissao_formatacao {
+    font-weight: bold !important;
+    margin-right: 10px !important;
+}
+
+.status_proposta_formalizada {
+    font-size: 25pt;
+}
+
+.versao_selecionada {
+    font-weight: bold;
+}
+
+.pendete_aceite_proposta_formalizada {
+    font-weight: bold;
+    color: red;
+
+}

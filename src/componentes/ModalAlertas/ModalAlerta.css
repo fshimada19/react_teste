@@ -1,0 +1,25 @@
+.modal_alerta {
+    right: 0% !important;
+    top: 0% !important;
+    position: fixed;
+    width: 18% !important;
+    height: 15%;
+}
+
+.modal_alert-mensagem-titulo{
+    padding-top: 1%;
+    text-align: right;
+    height: 40% !important;
+    background-color: red;
+    color: white;
+}
+
+
+.modal_alert-mensagem {
+    height: 60% !important;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}

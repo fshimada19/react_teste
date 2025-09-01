@@ -1,0 +1,46 @@
+element.style {
+    height: 48px;
+    margin-top: 0px;
+    transform: translateY(0px);
+    left: 0px;
+    right: 0px;
+}
+.white--text {
+    color: #ffffff !important;
+    caret-color: #ffffff !important;
+}
+
+.dark--blue {
+    background-color: #031956 !important;
+    border-color: #031956 !important;
+    color:#ffffff;
+}
+
+.nav-link, .dropdown-item {
+    color: #ffffff !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: darkgreen !important;
+}
+
+.header-size-proposta {
+    height: 48px; 
+    margin-top: 0px; 
+    transform: translateY(0px); 
+    left: 0px; 
+    right: 0px;
+    background-color: #031956 !important;
+    border-color: #031956 !important;
+
+}
+
+.row.no-gutters {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.cor_texto_ambiente {
+    color:#031956;
+}

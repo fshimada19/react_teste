@@ -1,0 +1,41 @@
+.dados_result {
+    max-height:100vh;
+    height: calc(-195px + 100vh);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.altura_lista {
+    height:350px !important;
+}
+
+.mensagem_sem_registro {
+    color:red;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.link-proposta {
+    color:#031956;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-proposta:hover {
+    color: #031956;
+    text-decoration: underline;
+}
+
+.titulo_tabela {
+    font-weight: bold;
+    color: lightgray;
+}
+
+.linha:hover {
+    background-color: gainsboro;
+}
+
+.estilo_codigo_proposta {
+    width: 6% !important;
+    padding-left: 2% !important;
+}

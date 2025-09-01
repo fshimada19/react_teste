@@ -1,0 +1,234 @@
+.class_body_proposta_gemea {
+    max-height:100vh;
+    height: calc(-115px + 100vh);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.class_bloco_proposta_gemea_rota {
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px !important;
+    margin-left: 3px !important;
+    margin-bottom: 3px !important;
+
+
+}
+
+.class_bloco_proposta_gemea {
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 4px !important;
+    margin-bottom: 24px !important;
+    margin-left: 3px !important;
+
+}
+
+.class_bloco_cliente_proposta_gemea {
+    padding-bottom: 2%;
+}
+
+.class_proposta_gemea_titulo_proposta_comercial {
+    font-weight: bold;
+    font-size: 8pt;
+    color:gray;
+}
+
+.class_proposta_gemea_cliente {
+    font-weight: bold;
+    color: #031955;
+}
+
+.class_proposta_gemea_titulo_rota {
+    font-weight: bold;
+    font-size: 8pt;
+    color: #031955;
+}
+
+.class_proposta_gemea_texto_rota {
+    font-size: 8pt;
+}
+
+.class_bloco_proposta_gemea_transit_time {
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 2px !important;
+    padding-bottom: 10px !important;
+    border-radius: 4px !important;
+    margin-bottom: 24px !important;
+
+}
+
+.class_titulo_transit_time {
+    font-weight: bold;
+    font-size: 8pt;
+    color: #031955;
+}
+
+.class_texto_transit_time {
+    font-size: 8pt;
+}
+
+.class_bloco_proposta_gemea_dados_carga {
+    width: 13% !important;
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-left:10px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 3px !important;
+    margin-left: 3px !important;
+    text-align: center !important;
+
+}
+.class_bloco_proposta_observacao {
+    width: 48% !important;
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-left:10px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 3px !important;
+    margin-left: 3px !important;
+    text-align: center !important;
+
+}
+
+.class_proposta_gemea_dados_observacao {
+    font-size: 8pt;
+}
+
+
+.class_proposta_gemea_dados_carga {
+    font-size: 8pt;
+}
+
+.class_bloco_proposta_gemea_mercadoria {
+    width: 40% !important;
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-left:10px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 15px !important;
+    margin-left: 3px !important;
+    font-size: 8pt;
+}
+
+.class_titulo_mercadoria {
+    font-weight: bold;
+}
+
+.class_bloco_proposta_gemea_pickup {
+    width: 53% !important;
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-left:10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 3px !important;
+
+}
+
+.class_table_pickup {
+    width: 100% !important;
+}
+
+.class_titulo_pickup {
+    font-weight: bold;
+    font-size: 8pt;
+    color: #031955;
+    border-style: solid !important;
+    border-width: 1px !important;
+}
+
+.class_texto_pickup {
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-size: 8pt;
+}
+
+.class_titulo_imo {
+    font-weight: bold;
+    font-size: 8pt;
+    color: #031955;
+    border-style: solid !important;
+    border-width: 1px !important;
+}
+
+.class_texto_imo {
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-size: 8pt;
+}
+
+.class_titulo_bloco_taxas {
+    font-size: 8pt;
+    color: #031955;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.class_bloco_proposta_gemea_taxas {
+    width: 100% !important;
+    max-height: max-content !important;
+    background-color: white !important;
+    padding: 0px !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    padding-top: 10px !important;
+    padding-left:10px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 15px !important;
+    margin-left: 3px !important;
+}
+
+.class_proposta_gemeas_texto_taxas {
+    font-size: 8pt;
+    border-top-color: lightgray !important;
+    border-top: solid 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.class_proposta_gemeas_titulo_taxas {
+    font-weight: bold;
+    color: #031955;
+    font-size: 8pt;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}
+
+.class_selecionar_todos_visivel {
+    display: contents;
+}
+.class_selecionar_todos_invisivel {
+    display: none;
+}
